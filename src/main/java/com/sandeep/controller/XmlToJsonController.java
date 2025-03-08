@@ -36,7 +36,9 @@ public class XmlToJsonController {
         if (file.isEmpty()) {
             return ResponseEntity.badRequest().body("Please upload an XML file.");
         }
-
+        if(!file.getOriginalFilename().endsWith(".xml")){
+            return ResponseEntity.badRequest().body("Please upload Xml file only");
+        }
         try {
             String responseMessage = xmlToJsonService.convertAndSaveJson(file);
             return ResponseEntity.ok(responseMessage);
