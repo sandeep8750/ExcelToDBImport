@@ -43,4 +43,9 @@ public class ExcelImportServiceImpl implements IExcelImportService {
     public List<EmployeeEntity> getAllData() {
         return excelSaveRepository.findAll();
     }
+
+    @Override
+    public List<EmployeeEntity> getAllDataFromRowNumber(Integer rowNumber) {
+        return this.excelSaveRepository.findAllAfterRow(rowNumber);
+    }
 }

@@ -13,4 +13,6 @@ public interface IExcelImportService {
     public List<EmployeeEntity> processExcelFile(MultipartFile file);
 
     public List<EmployeeEntity> getAllData();
+
+    List<EmployeeEntity> getAllDataFromRowNumber(Integer rowNumber);
 }

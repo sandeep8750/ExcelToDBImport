@@ -40,6 +40,7 @@ public class ExcelToDBController {
         return ResponseEntity.ok(this.excelImportService.processExcelFile(excelFile));
     }
 
+
     @Operation(
             summary = "Read Entire Excel file",
             description = "Read Entire Excel file from DATABASE."
@@ -50,5 +51,14 @@ public class ExcelToDBController {
         return ResponseEntity.ok(employeeEntityList);
     }
 
+    @Operation(
+            summary = "Read Entire Excel file After Row ",
+            description = "Read Entire Excel After Give Rown file from DATABASE."
+    )
+    @GetMapping("/read-excelRow")
+    public ResponseEntity<List<EmployeeEntity>> readExcelFileFromSpecificRow(@RequestParam("rowNumber") Integer rowNumber) {
+        List<EmployeeEntity> employeeEntityList = excelImportService.getAllDataFromRowNumber(rowNumber);
+        return ResponseEntity.ok(employeeEntityList);
+    }
 
 }
