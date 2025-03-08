@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <id>101</id>
+        <firstName>John</firstName>
+        <lastName>Doe</lastName>
+        <email>john.doe@example.com</email>
+        <phoneNumber>+1234567890</phoneNumber>
+        <department>IT</department>
+        <designation>Software Engineer</designation>
+        <salary>75000</salary>
+        <dateOfBirth>1990-05-15</dateOfBirth>
+        <dateOfJoining>2020-06-01</dateOfJoining>
+        <address>123 Main Street, New York, USA</address>
+        <status>Active</status>
+    </employee>
+    <employee>
+        <id>102</id>
+        <firstName>Jane</firstName>
+        <lastName>Smith</lastName>
+        <email>jane.smith@example.com</email>
+        <phoneNumber>+1987654321</phoneNumber>
+        <department>HR</department>
+        <designation>HR Manager</designation>
+        <salary>85000</salary>
+        <dateOfBirth>1988-09-23</dateOfBirth>
+        <dateOfJoining>2018-03-12</dateOfJoining>
+        <address>456 Elm Street, Los Angeles, USA</address>
+        <status>Active</status>
+    </employee>
+</employees>

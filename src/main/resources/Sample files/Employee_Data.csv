@@ -1,0 +1,6 @@
+First Name,Last Name,Email,Phone Number,Department,Designation,Salary,Date of Birth,Date of Joining,Address,Status
+John,Doe,john.doe@example.com,9876543210,IT,Software Engineer,75000,1990-05-15,2020-06-01,"123 Main St, City",Active
+Jane,Smith,jane.smith@example.com,9876543211,HR,HR Manager,80000,1988-08-22,2019-04-15,"456 Elm St, City",Active
+Alice,Brown,alice.brown@example.com,9876543212,Finance,Financial Analyst,85000,1992-03-10,2021-01-10,"789 Oak St, City",On Leave
+Bob,Johnson,bob.johnson@example.com,9876543213,Marketing,Marketing Lead,70000,1985-11-30,2018-09-20,"321 Pine St, City",Resigned
+Charlie,Davis,charlie.davis@example.com,9876543214,Operations,Operations Manager,90000,1993-07-18,2022-02-25,"654 Maple St, City",Active
